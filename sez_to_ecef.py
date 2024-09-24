@@ -79,6 +79,9 @@ rotationcalc_2=[0,0,0]
 for i in range(3):
     for j in range(3):
         rotationcalc_1[i]+=rotation_1[i][j]*sez_vect[j]
+
+for i in range(3):
+    for j in range(3):
         rotationcalc_2[i]+=rotation_2[i][j]*rotationcalc_1[j]
 
 ecef_vect=[]
